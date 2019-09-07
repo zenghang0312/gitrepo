@@ -1,0 +1,159 @@
+.i-progress {
+  display: inline-block;
+  width: 100%;
+  font-size: 12px;
+  position: relative;
+}
+
+.i-progress-outer {
+  display: inline-block;
+  width: 100%;
+  margin-right: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+/* 
+.i-progress-show-info .i-progress-outer {
+  padding-right: 55px;
+  margin-right: -55px;
+} */
+
+.i-progress-inner {
+  width: 100%;
+  border-radius: 200px;
+  vertical-align: middle;
+  display: flex;
+  background-image: -webkit-linear-gradient(left, #f9b9af, #fdc5c4, #fed1cc);
+}
+
+.i-progress-bg {
+  position: relative;
+  transition: all 0.2s linear;
+  width: 0;
+  height: 14px;
+   border-radius: 200rpx;
+  /* background-image:-webkit-linear-gradient(left,#f95124,#ff4e26,#fa7c18,#ff7f13,#fe970c);  */
+  /* background-image: linear-gradient(-55deg, transparent 0rpx, transparent 2.6rpx, #ff5700 20rpx,
+    #ff5700 45rpx, transparent 60rpx, transparent 50rpx,  #ff5700 40rpx);   
+    background-color: rgb(255, 142, 50);
+     background-size: 27rpx 90rpx; */
+}
+
+.i-progress-t {
+  margin-left: 5px;
+  text-align: center;
+  font-size: 16rpx;
+  vertical-align: middle;
+  padding-right: 5rpx;
+  position: absolute;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.i-progress-text {
+  margin-left: 5px;
+  text-align: left;
+  font-size: 16rpx;
+  vertical-align: middle;
+  padding-right: 5rpx;
+  position: absolute;
+  right: 0;
+  z-index: 89;
+}
+
+.i-progress-active .i-progress-bg:before {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  border-radius: 10px;
+  animation: i-progress-active 2s ease-in-out infinite;
+}
+
+.i-progress-wrong .i-progress-bg {
+  background-color: #ed3f14;
+}
+
+.i-progress-wrong .i-progress-text {
+  color: #ed3f14;
+}
+
+.i-progress-yellow .i-progress-bg {
+  background-color: #fff100;
+}
+
+.i-progress-yellow .i-progress-text {
+  color: #ed3f14;
+}
+
+.i-progress-success .i-progress-bg {
+  background-color: #19be6b;
+}
+
+.i-progress-success .i-progress-text {
+  color: #19be6b;
+}
+
+.i-progress-red .i-progress-bg {
+  background-color: #CD001E;
+}
+
+.i-progress-red .i-progress-text {
+
+  width:82%;
+  color: #F5CCD2;
+  text-align: left;
+  /* line-height: 27rpx; */
+}
+
+.i-progress-red .i-progress-bg:before {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  border-radius: 10px;
+  animation: i-progress-active 2s ease-in-out infinite;
+}
+.i-progress-orange .i-progress-bg {
+ background-image:-webkit-linear-gradient(left,#f95124,#ff4e26,#fa7c18,#ff7f13,#fe970c); 
+}
+
+.i-progress-orange .i-progress-text {
+  color: #CD001E;
+}
+
+ 
+
+@keyframes i-progress-active {
+  0% {
+    opacity: 0.3;
+    width: 0;
+  }
+
+  100% {
+    opacity: 0;
+    width: 100%;
+  }
+}
+
+@keyframes i-progress-red {
+  0% {
+    opacity: 0.3;
+    width: 0;
+  }
+
+  100% {
+    opacity: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,9 @@
+<text class="countdown-class" wx:if="{{isPart === false}}">
+  {{time}}
+</text>
+<view wx:if="{{isPart === true}}" class='time {{timeStyle}}'>
+  <text>{{day1}}</text> : 
+  <text>{{hour1}}</text> :
+  <text>{{minute1}}</text> :
+  <text>{{second1}}</text>
+</view>

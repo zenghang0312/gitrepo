@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "swiperBanner": "/component/swiperBanner/swiperBanner",
+    "i-icon": "/dist/icon/index"
+  }
+}

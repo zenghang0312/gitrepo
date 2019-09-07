@@ -1,0 +1,34 @@
+<view class="index-sw" style="width:{{width}}%;height:{{height}}rpx;padding:{{padding}}; border-radius: {{isBorder}}rpx">
+    <swiper indicator-dots="{{option.indicatorDots}}" autoplay="{{option.autoplay}}" interval="{{option.interval}}" duration="{{option.duration}}" class="index-swiper" circular="true" style="width:100%;height:{{height}}rpx;"
+    indicator-active-color="#{{indicatorColor.actColor}}" 
+    indicator-color="#{{indicatorColor.defColor}}"
+    >
+      <block wx:for="{{imgs}}" wx:key="imgs">
+        <block wx:if="{{item.active_id && item.active_id !== ''}}">
+          <swiper-item wx:if="{{item.active_code == '1'}}" bindtap="goUri" 
+          data-uri="/pages/activity/category/category?active_id={{item.active_id}}">
+            <image mode="{{mode}}" src="{{baseUrl}}{{item.img}}" class="slide-image" style="width:100%;height:{{height}}rpx; border-radius: {{isBorder}}rpx"  />
+          </swiper-item>
+           <swiper-item wx:elif="{{item.active_code == '2'}}" bindtap="goUri" 
+          data-uri="/pages/activity/brand/brand?active_id={{item.active_id}}">
+            <image  mode="{{mode}}" src="{{baseUrl}}{{item.img}}" class="slide-image" style="width:100%;height:{{height}}rpx; border-radius: {{isBorder}}rpx" />
+          </swiper-item>
+          <swiper-item bindtap="goUri" wx:else
+          data-uri="/pages/activity/single/single?active_id={{item.active_id}}" >
+            <image  mode="{{mode}}" src="{{baseUrl}}{{item.img}}" class="slide-image" style="width:100%;height:{{height}}rpx; border-radius: {{isBorder}}rpx" />
+          </swiper-item>
+        </block>
+        <block wx:else>
+          <swiper-item 
+          wx:if="{{item.goods_id && item.goods_id !== ''}}"
+          bindtap="goUri" 
+          data-uri="/pages/goods/goods_detail/goods_detail?goodsId={{item.goods_id}}">
+            <image  mode="{{mode}}" src="{{baseUrl}}{{item.img}}" class="slide-image" style="width:100%;height:{{height}}rpx; border-radius: {{isBorder}}rpx"/>
+          </swiper-item>
+          <swiper-item wx:else >
+            <image  mode="{{mode}}" src="{{baseUrl}}{{item.img}}" class="slide-image" style="width:100%;height:{{height}}rpx; border-radius: {{isBorder}}rpx" />
+          </swiper-item>
+        </block>
+      </block>
+    </swiper>
+  </view>

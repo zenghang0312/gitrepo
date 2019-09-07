@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/reserve/reserve",
+    "pages/subscribe/subscribe_list/subscribe_list",
+    "pages/user/user_center/user_center",
+    "pages/user/login/login",
+    "pages/subscribe/apply/apply"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "众顺达驾校",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/images/home.png",
+        "selectedIconPath": "assets/images/home_on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/reserve/reserve",
+        "iconPath": "assets/images/order.png",
+        "selectedIconPath": "assets/images/order_on.png",
+        "text": "我要预约"
+      },
+      {
+        "pagePath": "pages/subscribe/subscribe_list/subscribe_list",
+        "iconPath": "assets/images/learn_car.png",
+        "selectedIconPath": "assets/images/learn_caron.png",
+        "text": "分类商城"
+      },
+      {
+        "pagePath": "pages/user/user_center/user_center",
+        "selectedIconPath": "assets/images/wode_on.png",
+        "iconPath": "assets/images/wode.png",
+        "text": "我的"
+      }
+    ],
+    "backgroundColor": "#fff",
+    "selectedColor": "#3283E3",
+    "color": "#656565",
+    "position": "bottom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

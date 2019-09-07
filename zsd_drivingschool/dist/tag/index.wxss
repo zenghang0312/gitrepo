@@ -1,0 +1,286 @@
+.i-tag {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 4px;
+  border-radius: 2px;
+  background: #fff;
+  font-size: 11px;
+  vertical-align: middle;
+  border: 1rpx solid #dddee1;
+}
+
+.i-tag-none {
+  border-color: #fff;
+}
+
+.i-tag-default {
+  border-color: #dddee1;
+  background: #e9eaec;
+}
+
+.i-tag-red {
+  background: #ed3f14;
+  color: #fff;
+}
+
+.i-tag-red-border {
+  color: #ed3f14;
+  background: #fff;
+  border-color: #ed3f14;
+}
+
+.i-tag-red-checked {
+  background: #ed3f14;
+  color: #fff;
+  border-color: #ed3f14;
+}
+
+/*自定义颜色*/
+
+.i-tag-reds {
+  color: #ed3f14;
+}
+
+.i-tag-reds-border {
+  color: #000;
+}
+
+.i-tag-reds-checked {
+  color: #ed3f14;
+  border: none !important;
+  background-color: transparent !important;
+  opacity: 0.9;
+}
+
+/*以上*/
+
+.i-tag-green {
+  background: #19be6b;
+  color: #fff;
+  border-color: #19be6b;
+}
+
+.i-tag-green-border {
+  color: #19be6b;
+  background: #fff;
+  border-color: #19be6b;
+}
+
+.i-tag-green-checked {
+  background: #19be6b;
+  color: #fff;
+  border-color: #19be6b;
+}
+
+.i-tag-blue {
+  background: #2d8cf0;
+  color: #fff;
+  border-color: #2d8cf0;
+}
+
+.i-tag-blue-border {
+  color: #2d8cf0;
+  background: #fff;
+  border-color: #2d8cf0;
+}
+
+.i-tag-blue-checked {
+  background: #2d8cf0;
+  color: #fff;
+  border-color: #2d8cf0;
+}
+
+.i-tag-orange {
+  background: #f30;
+  color: #fff;
+  border-color: #f30;
+}
+
+.i-tag-orange-checked {
+  background: #f30;
+  color: #fff;
+  border-color: #f30;
+}
+
+.i-tag-orange-border {
+  color: #f30;
+  background: #fff;
+  border-color: #f30;
+}
+
+.i-tag-yellow {
+  background: #f90;
+  color: #fff;
+  border-color: #f90;
+}
+
+.i-tag-yellow-border {
+  color: #f90;
+  background: #fff;
+  border-color: #f90;
+}
+
+.i-tag-yellow-checked {
+  background: #f90;
+  color: #fff;
+  border-color: #f90;
+}
+
+.i-tag-default-checked {
+  background: #e9eaec;
+  color: #495060;
+  border-color: #e9eaec;
+}
+
+/* 自定义 */
+.i-tag-blueviolet {
+  background: linear-gradient(to right, #7A8CFC,#7B88FB,#7E79F7,#8166F3,#8459F1,#8552EF);
+  color: #fff;
+  border-color: #fff;
+  border-radius: 15rpx;
+}
+
+.i-tag-blueviolet-border {
+  color: #828590;
+  background: #f5f6fb;
+  border-color: #e0e3f4;
+  border-radius: 15rpx;
+}
+
+.i-tag-blueviolet-checked {
+  background: linear-gradient(to right, #7A8CFC,#7B88FB,#7E79F7,#8166F3,#8459F1,#8552EF);
+  color: #fff;
+  border-color: #fff;
+  border-radius: 15rpx;
+}
+
+.i-tag-goldEnrod {
+  background: linear-gradient(to left, #FCCE5E,#FCC659, #F9A946,#F79034,#F77625,#F57222);
+  color: #fff;
+   border-color: #fff;
+  border-radius: 15rpx;
+}
+
+.i-tag-goldEnrod-border {
+  color: #828590;
+  background: #f5f6fb;
+  border-color: #e0e3f4;
+  border-radius: 15rpx;
+}
+
+.i-tag-goldEnrod-checked {
+  background: linear-gradient(to right, #FCCE5E,#FCC659, #F9A946,#F79034,#F77625,#F57222);
+  color: #fff;
+   border-color: #fff;
+  border-radius: 15rpx;
+}
+
+
+.i-tag-skyblue {
+  background: linear-gradient(to right, #47DCF2,#43D4F3,#3AC4F5,#2CB0F8,#1E99F9,#198FFB,#1082FE);
+  color: #fff;
+   border-color: #fff;
+  border-radius: 15rpx;
+}
+
+.i-tag-skyblue-border {
+  color: #828590;
+  background: #f5f6fb;
+  border-color: #e0e3f4;
+  border-radius: 15rpx;
+}
+
+.i-tag-skyblue-checked {
+  background: linear-gradient(to right, #47DCF2,#43D4F3,#3AC4F5,#2CB0F8,#1E99F9,#198FFB,#1082FE);
+  color: #fff;
+  border-color: #fff;
+  border-radius: 15rpx;
+}
+
+
+.i-tag-goldenrod {
+  background: linear-gradient(to right, #F08B6D,#F3866F,#F17870,#F25E74,#F35375,#F24479);
+  color: #fff;
+  border-color: #fff;
+  border-radius: 15rpx;
+}
+
+.i-tag-goldenrod-border {
+  color: #828590;
+  background: #f5f6fb;
+  border-color: #e0e3f4;
+  border-radius: 15rpx;
+}
+
+.i-tag-goldenrod-checked {
+  background: linear-gradient(to right, #F08B6D,#F3866F,#F17870,#F25E74,#F35375,#F24479);
+  color: #fff;
+   border-color: #fff;
+  border-radius: 15rpx;
+}
+
+.i-tag-deepskyblue {
+  background: linear-gradient(to right, #6ae4b1, #59d8c3, #47ccdb);
+  color: #fff;
+  border-color: #fff;
+  border-radius: 15rpx;
+}
+
+.i-tag-deepskyblue-border {
+  color: #828590;
+  background: #f5f6fb;
+  border-color: #e0e3f4;
+  border-radius: 15rpx;
+}
+
+.i-tag-deepskyblue-checked {
+  background: linear-gradient(to left, #6ae4b1, #59d8c3, #47ccdb);
+  color: #fff;
+  border-color: #fff;
+  border-radius: 15rpx;
+}
+
+
+
+.i-tag-darkorchid {
+  background: linear-gradient(to right, #FD74D0,#F875D2,#E179DA,#CE7CE0,#AC81EC,#9785F1,#8D86F6,#7E89FC);
+  color: #fff;
+  border-color: #fff;
+  border-radius: 15rpx;
+}
+
+.i-tag-darkorchid-border {
+  color: #828590;
+  background: #f5f6fb;
+  border-color: #e0e3f4;
+  border-radius: 15rpx;
+}
+
+.i-tag-darkorchid-checked {
+    background: linear-gradient(to right, #FD74D0,#F875D2,#E179DA,#CE7CE0,#AC81EC,#9785F1,#8D86F6,#7E89FC);
+  color: #fff;
+  border-color: #fff;
+  border-radius: 15rpx;
+}
+/*  */
+.i-tag-rosered {
+  background: linear-gradient(to right,#F35585,#F25A81,#F4697E,#F57E78,#F99772,#FCB468,#FEBE66);
+  color: #fff;
+  border-color: #fff;
+  border-radius: 15rpx;
+}
+
+.i-tag-rosered-border {
+  color: #828590;
+  background: #f5f6fb;
+  border-color: #e0e3f4;
+  border-radius: 15rpx;
+}
+
+.i-tag-rosered-checked {
+    background: linear-gradient(to right,#F35585,#F25A81,#F4697E,#F57E78,#F99772,#FCB468,#FEBE66);
+  color: #fff;
+  border-color: #fff;
+  border-radius: 15rpx;
+}

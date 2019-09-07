@@ -1,0 +1,30 @@
+<view class="i-class i-progress i-progress-{{ status }} {{ !hideInfo ? 'i-progress-show-info' : '' }}">
+  <view class="i-progress-outer">
+    <view class="i-progress-inner">
+      <text style=" position:absolute;z-index: 1;margin-left:30%;text-align: center;font-size: 20rpx;color: {{strokeColor}}">{{progressInfo}}</text>
+      <view class="i-progress-bg" style="width: {{percent}}%;height: {{strokeWidth}}px;">
+
+      </view>
+      <view>
+        <view class="i-progress-text" wx:if="{{ !hideInfo }}">
+        <slot></slot>
+          <!-- <view class="i-progress-text-inner" style='font-size:20rpx;line-height:20rpx;'>{{ percent }}%</view> -->
+        </view>
+      </view>
+      <!-- <view wx:if="{{percent>90 && percent < 100}}">
+        <view class="i-progress-t" wx:if="{{ !hideInfo }}">
+          <view class="i-progress-text-inner" style='font-size:20rpx;line-height:20rpx;width:100%'>即将售完</view>
+        </view>
+      </view> -->
+
+       <!-- <view wx:if="{{percent === 100}}">
+        <view class="i-progress-t" wx:if="{{ !hideInfo }}">
+          <view class="i-progress-text-inner" style='font-size:20rpx;line-height:20rpx;'>已售完</view>
+        </view>
+      </view> -->
+    </view>
+  </view>
+  <!-- <view class="i-progress-text" wx:if="{{ !hideInfo }}">
+        <view class="i-progress-text-inner">{{ percent }}%</view>
+    </view> -->
+</view>

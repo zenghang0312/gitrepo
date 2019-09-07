@@ -1,0 +1,18 @@
+<view class='login-box'>
+  <view class='login-bg-box'>
+    <image class="login-bg-img" src='/assets/images/login.png' mode='widthFix'></image>
+  </view>
+
+  <view class='login-tip-box'>
+    <view class='login-tip-txt'>允许众顺达小程序有以下权限</view>
+    <view class="login-tip-checkbox">
+      <checkbox  checked="true" disabled="true" />获得你的公开信息（昵称、头像等）
+    </view>
+
+  </view>
+  <view class='btn-box'>
+    <button class='cancel' bindtap="goBack">取消</button>
+    <button class='confirm' open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">确认授权</button>
+
+  </view>
+</view>

@@ -1,0 +1,16 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "我的",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "i-panel": "/dist/panel/index",
+    "i-cell": "/dist/cell/index",
+    "i-icon": "/dist/icon/index",
+    "i-action-sheet": "/dist/action-sheet/index",
+    "i-grid": "/dist/grid/index",
+    "i-grid-item": "/dist/grid-item/index",
+    "i-grid-icon": "/dist/grid-icon/index",
+    "i-grid-label": "/dist/grid-label/index",
+    "i-cell-group": "/dist/cell-group/index"
+  }
+}

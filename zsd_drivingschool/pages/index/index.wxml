@@ -1,0 +1,75 @@
+<view>
+  <view class="search-bar {{scrollTop < 30 ? '' : 'topnav'}}">
+    <navigator class="search-input" url="/pages/search/search" data-uri='/pages/search/search'>
+      <i-icon i-class="my-search" type="search" size="22" color="#80848f"></i-icon>
+      搜索喜欢的商品
+    </navigator>
+  </view>
+
+
+  <view class="swiper-box">
+    <swiperBanner mode="'widthFix'" imgs="{{swiperImgs}}" padding="0" height="380"></swiperBanner>
+  </view>
+
+
+
+</view>
+<view class="kind-pic">
+  <view class="king-img-box">
+    <image src="/assets/images/nav-2.png" mode='widthFix' class="kind-img"></image>
+    <view>预约练车</view>
+  </view>
+  <view class="king-img-box" bindtap='goUri' data-uri='/pages/activity/seckill/seckill'>
+
+    <image src='/assets/images/nav-1.png' mode='widthFix' class="kind-img"></image>
+    <view>规范教学</view>
+  </view>
+  <view class="king-img-box" bindtap='goUri' data-uri='/pages/goods/goods_list/goods_list?is_promotion=1'>
+    <image src="/assets/images/nav-3.png" mode='widthFix' class="kind-img"></image>
+    <view>收费透明</view>
+  </view>
+  <navigator class="king-img-box" url='/pages/goods/goods_category/goods_category' open-type="switchTab">
+    <image src="/assets/images/nav-4.png" mode='widthFix' class="kind-img"></image>
+    <view>我要报名</view>
+  </navigator>
+</view>
+
+<view>
+  <label class="driving-test">驾考宝典</label>
+  <view class="driving-body">
+    <view class="driving-content">
+      <image class="driving-img" src="/assets/images/test.jpg"></image>
+      <view class="driving-text">
+        <label>驾考｜科一、科二、科三、科四 老学员忠告都在这</label>
+        <text>2019-09-01</text>
+      </view>
+    </view>
+    <view class="driving-content">
+      <image class="driving-img" src="/assets/images/test.jpg"></image>
+      <view class="driving-text">
+        <label>驾考｜科一、科二、科三、科四 老学员忠告都在这</label>
+        <text>2019-09-01</text>
+      </view>
+    </view>
+  
+    <view class="driving-content">
+      <image class="driving-img" src="/assets/images/test.jpg"></image>
+      <view class="driving-text">
+        <label>驾考｜科一、科二、科三、科四 老学员忠告都在这</label>
+        <text>2019-09-01</text>
+      </view>
+    </view>
+    <view class="driving-content">
+      <image class="driving-img" src="/assets/images/test.jpg"></image>
+      <view class="driving-text">
+        <label>驾考｜科一、科二、科三、科四 老学员忠告都在这</label>
+        <text>2019-09-01</text>
+      </view>
+    </view>
+
+  </view>
+</view>
+  <!-- 广告 -->
+    <view class="gg-img">
+      <image src="/assets/images/gg.jpg" ></image>
+    </view>

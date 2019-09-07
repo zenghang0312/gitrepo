@@ -1,0 +1,356 @@
+/* pages/user/user_center/user_center.wxss */
+  
+/*.user-contact{
+   font-size: 18px !important;
+}*/
+
+.u-msg {
+  background: #f00;
+  color: #fff;
+  font-size: 16rpx;
+  height: 31rpx;
+  min-width: 31rpx;
+  line-height: 31rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  /* margin-left: 40rpx; */
+  margin-top: -15rpx;
+}
+
+.u-m-list {
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.u-m-list image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+
+.u-main {
+  font-size: 28rpx;
+  padding: 30rpx 3%;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.u-main-box .u-main:last-child {
+  border-bottom: none;
+}
+
+.u-main-box {
+  margin: 25rpx 0;
+  background: #fff;
+}
+
+.o-main image {
+  /* width: 50rpx;
+  height: 50rpx; */
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.o-main {
+  color: #333;
+  text-align: center;
+  font-size: 28rpx;
+  position: relative;
+  width: 16%;
+  background: #fff;
+}
+
+.u-o-main {
+  margin: 35rpx 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-icon {
+  padding-bottom: 8rpx;
+}
+
+.check-all {
+  color: #666;
+  font-size: 28rpx;
+}
+
+.u-box {
+  width: 90%;
+  padding: 40rpx 3% 0;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  margin: auto;
+  border-radius: 10rpx;
+  /*上面做好了就开出来*/
+  /* margin-top: 60rpx; */
+  position: relative;
+}
+
+.u-o-all {
+  font-size: 32rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-thumb {
+  width: 120rpx;
+  height: 120rpx;
+  box-shadow: 0 0 6rpx #fff;
+  border-radius: 130rpx;
+  margin-top: 34rpx;
+  margin-left: 40rpx;
+}
+
+.u-banner {
+  width: 100%;
+  height: 440rpx;
+  position: absolute;
+  top:0;
+}
+
+.u-banner-box {
+  /* position: absolute; */
+  background: #fff;
+  height: 240rpx;
+}
+
+.user-thumb-box{
+  /* background-image: url('https://v3.nahuomall.com/static/images/user_banner_plus.png'); */
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 32rpx;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.user-box {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 9;
+}
+
+page {
+  background: #f5f5f5;
+}
+
+/*普通会员认证按钮*/
+
+.user_center {
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.btn_dis {
+  text-align: center;
+  width: 280rpx;
+  font-size: 20rpx;
+  display: flex;
+  /* justify-content: center; */
+  color: #f5f5f5;
+}
+
+/* .btn {
+  width: 40%;
+  border-radius: 20rpx;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0 5%;
+  margin-right: 10rpx;
+  line-height: 40rpx;
+}
+
+.btn-s {
+  width: 55%;
+  padding: 0 5%;
+  font-size: 20rpx;
+  border: 1px solid #f5f5f5;
+  border-radius: 20rpx;
+  line-height: 32rpx;
+} */
+
+/*加入会员右边样式*/
+
+.button-right {
+  width: 160rpx;
+  
+  background: linear-gradient(to right, #2e3242, #2e3141, #2b2d3d, #242733, #22242f, #21222c, #1f212a);
+  position: absolute;
+  right: 0;
+  text-align: center;
+  font-size: 22rpx;
+  border-top-left-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+  line-height: 55rpx;
+  /* box-shadow: 0px 3px #49209A; */
+}
+.button-right text{
+   background-image:-webkit-linear-gradient(right,#F0D267,#F2D45F,#F9DB43,#FFE12C); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent; 
+/* color: #ffe12c; */
+}
+
+.user-title {
+  display: flex;
+  justify-content: center;
+  color: #f5f5f5;
+  line-height: 42rpx;
+  width: 100%;
+  text-align: center;
+  margin-top: 34rpx;
+  position: relative;
+}
+
+.user-title>view {
+  width: 25%;
+
+}
+
+.user-title>view>view {
+  font-weight: 600;
+}
+.integral_num{
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis; 
+}
+.user-title>view>text {
+  font-size: 25rpx;
+}
+
+/*新u-main-box*/
+
+.u-main-box-new {
+  width: 96%;
+  margin: auto;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+
+/*重写样式*/
+.rewrite-i-grid-my{
+  background: #fff;
+}
+.rewrite-i-grid {
+   color: #118EEA;
+   /* font-weight: 600; */
+   text-align: center;
+     background: #fff;
+
+}
+
+.rewrite-i-grid-top-border {
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  background: #fff;
+}
+
+.rewrite-i-grid-bottom-border {
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  background: #fff;
+}
+
+.grid-item-border-none {
+  border: none;
+}
+
+.nav-size {
+  font-size: 28rpx !important;
+}
+
+/*广告*/
+
+.adver-img {
+  width: 96%;
+  margin: auto;
+  margin-top: 20rpx;
+}
+
+.adver-img image {
+  width: 100%;
+  height: 200rpx;
+  overflow: hidden;
+  background-size: 100%;
+}
+
+.grid-label-hide {
+  color: #fff !important;
+}
+
+/*经销商/plus部分*/
+
+.plus-box-s {
+  width: 96%;
+  margin: auto;
+  /* text-align: center; */
+}
+
+.plus-title-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus-title-image>view {
+  font-size: 34rpx;
+  font-weight: 600;
+  margin: 0 2% 0 2%;
+}
+
+.plus-title-image image {
+  /* width: 52rpx;
+  height: 68rpx; */
+   width: 50rpx;
+  height: 65rpx; 
+
+}
+
+.plus-title-mes {
+  width: 100%;
+  text-align: center;
+  color: #ababab;
+  font-size: 22rpx;
+}
+
+.cloud-store {
+  /* width: 96%; */
+  /* background-color: #fff; */
+  margin: auto;
+  margin-top: 20rpx;
+  border-top-left-radius: 10rpx !important;
+  border-top-right-radius: 10rpx !important;
+  margin-bottom: 20rpx;
+}
+
+.u-o-all-add {
+    border-top-left-radius: 10rpx !important;
+  border-top-right-radius: 10rpx !important;
+  line-height: 100rpx;
+  padding-left: 3%;
+  border-bottom: none !important;
+  padding-bottom: 0  !important;
+  background:#fff;
+}
+.footer{
+  height: 50rpx;
+  width: 100%;
+}
+.my-i-badge{
+  font-size: 15rpx;
+}

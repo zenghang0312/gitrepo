@@ -1,0 +1,10 @@
+view{background:rgba(0,0,0,0);margin-bottom:0;}
+page{background:#fff}
+.login-bg-img{width:100%}
+.login-tip-box{margin:0 auto;width:94%;font-size:28rpx;}
+.login-tip-txt,
+.login-tip-checkbox{margin-top:40rpx;font-size:24rpx;}
+.btn-box{margin:0 auto;text-align:center;justify-content:center;display:flex;width:94%;}
+.btn-box button{width:47%;height:78rpx;line-height:78rpx;color:#fff;margin-top:40rpx;border-radius:10rpx;font-size:34rpx;}
+.cancel{background:#aaaaaa;}
+.confirm{background:#3283E3;}

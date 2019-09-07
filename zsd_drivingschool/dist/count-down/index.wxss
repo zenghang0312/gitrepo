@@ -1,0 +1,31 @@
+.countdown-class{
+  height: auto;
+  display: inline-block
+}
+.time text{
+  border-radius: 5rpx;
+  padding: 0 5rpx;
+  height: 28rpx;
+  width: 28rpx;
+  font-size: 22rpx;
+}
+.part-time text{
+  background: #000;
+  color: #fff;
+}
+.orange text{
+  color: #ff3300;
+  border: 1px solid #ff3300;
+}
+.green text{
+  color: #25a96d;
+  border: 1px solid #25a96d;
+}
+.orange-fill text{
+  background: #ff3300;
+  color: #fff;
+}
+.gray text{
+  color: #999999;
+  border: 1px solid #999999;
+}
